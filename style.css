@@ -114,9 +114,10 @@ header .logo {
 .text a:hover {
   letter-spacing: 6px;
 }
+
 .social {
   position: absolute;
-  z-index: 10;
+  z-index: 11;
   bottom: 20px;
   display: flex;
   justify-content: center;
