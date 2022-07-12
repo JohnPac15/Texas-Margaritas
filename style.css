@@ -117,7 +117,7 @@ header .logo {
 
 .social {
   position: absolute;
-  z-index: 11;
+  z-index: 10;
   bottom: 20px;
   display: flex;
   justify-content: center;
@@ -159,6 +159,11 @@ header .logo {
 }
 .menu ul li a:hover {
   color: #03a9f4;
+}
+
+.items {
+  z-index: 0;
+  
 }
 
 @media (max-width: 991px) {
