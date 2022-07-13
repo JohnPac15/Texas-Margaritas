@@ -100,7 +100,20 @@ header .logo a{
   font-weight: 400;
   max-width: 700px;
 }
-.text a {
+.text form {
+  display: inline-block;
+  font-size: 1em;
+  /* background: #fff; */
+  padding: 10px 30px;
+  text-transform: uppercase;
+  /* text-decoration: none; */
+  font-weight: 500;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  /* letter-spacing: 2px; */
+  /* transition: 0.2s; */
+}
+.text a{
   display: inline-block;
   font-size: 1em;
   background: #fff;
@@ -164,12 +177,35 @@ header .logo a{
 }
 
 .items {
+  color: black;
   z-index: 0;
-  border: black 3px solid;
   height: 75vh;
   width: 100%;
+  background-color: #c3deec;
+  opacity: 76%;
+  border-radius: 41%;
+}
 
+.items-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+}
 
+.items h1{
+  font-size: 4em;
+  font-weight: 700;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.items p {
+  font-size: 1.1em;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
 }
 
 @media (max-width: 991px) {
@@ -177,7 +213,7 @@ header .logo a{
   .showcase header {
     padding: 40px;
   }
-  .text h2 {
+  .text h2, .items h1 {
     font-size: 3em;
   }
   .text h3 {
