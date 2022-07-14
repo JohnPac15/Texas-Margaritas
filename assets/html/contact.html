@@ -25,16 +25,28 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, nostrum soluta. Aut atque deserunt facilis neque libero ipsam fugit, sequi obcaecati voluptatem cupiditate quos earum? Distinctio delectus illo ut accusamus!
             </p>
 
-            <form action="https://formsubmit.co/john@paciniinsurance.com" method="POST">
+            <form action="https://formsubmit.co/John@paciniinsurance.com" method="POST">
+            <!-- <form> -->
                 <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+                    <label for="InputEmail1" class="form-label">Email address</label>
+                    <input type="email" name="autoresponse" class="form-control" id="InputEmail" aria-describedby="emailHelp" value="Thank you for reaching out to South Texas Margaritas. Will Contact shortly to Schedule your rental.">
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Name</label>
+                    <!-- <label for="Inputsubject" class="form-label"></label> -->
+                    <input type="hidden" class="form-control" id="InputSubject" value="Margarit Rental">
+                </div>
+                <div class="mb-3">
+                    <!-- <label for="Inputsubject" class="form-label"></label> -->
+                    <input type="text" class="form-control" name="honey" style="display: none;">
+                </div>
+                <div class="mb-3">
+                    <!-- <label for="Inputsubject" class="form-label"></label> -->
+                    <input type="hidden" name="_template" value="table">                
+                </div>
+                <div class="mb-3">
+                    <label for="InputName" class="form-label">Name</label>
                     <input type="Name" class="form-control" id="InputName">
                 </div>
-            
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Phone Number</label>
                     <input type="phone" class="form-control" id="inputPhone">
@@ -44,7 +56,7 @@
                     <input type="phone" class="form-control" id="inputAddress">
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
-                <!-- <a  href="mailto:john@paciniinsurnace.com?subject = Margarita_Rental" type="submit" class="btn btn-primary">Submit</a> -->
+                <!-- <a  href="mailto:john@paciniinsurnace.com?subject=Margarita_Rental" type="submit" class="btn btn-primary">Submit</a> -->
             </form>
 
         </div>
